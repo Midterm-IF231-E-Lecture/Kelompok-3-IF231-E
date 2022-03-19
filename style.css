@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@media (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 970px;
+    }
+}
+
+header {
+    background-color: rgb(61, 56, 56);
+    color: white;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(13, 0, 66);
+    animation-name: day;
+    animation-duration:10s;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    background-color: rgb(61, 56, 56);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#sun{
+    animation-name:sun;
+    animation-duration:10s;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+}
+.star{
+    animation-name:star;
+    animation-duration:0s;
+    animation-iteration-count:infinite;
+}
+/* @keyframes star{
+    50%{
+        fill:none;
+    }
+} */
+@keyframes day{
+    50%{
+        background-color:rgb(78, 185, 228);
+    }
+}
+/* @keyframes sun{
+    50%{
+        transform:translate(-10px,5px);
+        fill:orange;
+    }
+} */
+
+.text-umn {
+    text-align: center;
+    
+}
+.text-umn-1 {
+    color: rgb(33, 218, 156);
+}
+.text-umn-2 {
+    color: rgb(150, 252, 218);
+}
+
+.img-avatar {
+    width: 250px;
+}
+.arrow-button {
+    margin-top: 20px;
+}
+
+.text1{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.usernameForm {
+    border-color: black;
+    border-radius: 30px;
+}
+
+progress {
+    position: inherit;
+    color: rgb(201, 0, 107);
+    width: 100%;
+}
+
+h4 {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+
+progress {
+    position: inherit;
+    color: rgb(201, 0, 107);
+    width: 100%;
+}
+
+.arrow {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.arrow img {
+	width: 80%;
+}
+
+.character {
+	min-width: 25%;
+	max-height: 260px;
+}
+
+#usernamPlayer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#aboutus img
+{
+    width: 110px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+#aboutus img:hover
+{
+    opacity: 0.5;
+    background-color: gray;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+#logofooter img
+{
+    width: 100px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+}
